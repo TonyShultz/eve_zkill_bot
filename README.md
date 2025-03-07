@@ -1,0 +1,1 @@
+The Telegram bot receives corporation kills from the RedisQ Killboard server, requests names via ESI, caches the names on the local machine to reduce the load on ESI, after all this the bot sends a message to the specified topic of the Telegram group.
