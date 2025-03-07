@@ -1,0 +1,7 @@
+/eve_kill_bot
+│── main.py              # Запуск бота
+│── config.py            # Конфигурация (настройки)
+│── redisq_listener.py   # Получение киллов из RedisQ
+│── telegram_sender.py   # Отправка сообщений в Telegram
+│── esi_fetcher.py       # Запросы к ESI API + кэш
+│── eve_cache.json       # Кэшированные имена
